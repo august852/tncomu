@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ 
+    <title>Bootstrap border</title>
+    <style type="text/css">
+      [class^=border] {
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        margin: .25rem;
+        background-color: #f5f5f5;
+      }
+      .ex-border-0 span{
+        border: 1px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="my-5 border border-primary p-5" style="">
+        <h2>Border 增加</h2>
+        <span class="border"></span>
+        <span class="border-top"></span>
+        <span class="border-right"></span>
+        <span class="border-bottom"></span>
+        <span class="border-left"></span>
+      </div>       
+    </div>    
+ 
+  </body>
+</html>
