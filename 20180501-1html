@@ -13,6 +13,7 @@
         background: #aa0;
         border: 1px blue solid;
         height:200px;
+        
       }
       .cell{
         background: #f00;
